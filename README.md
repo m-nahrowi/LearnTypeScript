@@ -1,0 +1,2 @@
+# LearnTypeScript
+ just learn indonesia

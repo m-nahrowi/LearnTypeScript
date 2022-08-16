@@ -1,0 +1,29 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "just learn indonesia",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "rm -rf build/src && tsc",
+    "ts": "rm -rf build/src && tsc -w",
+    "dev": "nodemon ./build/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-nahrowi/LearnTypeScript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-nahrowi/LearnTypeScript/issues"
+  },
+  "homepage": "https://github.com/m-nahrowi/LearnTypeScript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  }
+}

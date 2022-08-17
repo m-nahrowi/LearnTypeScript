@@ -4,9 +4,7 @@
   "description": "just learn indonesia",
   "main": "index.js",
   "scripts": {
-    "tsc": "rm -rf build/src && tsc",
-    "ts": "rm -rf build/src && tsc -w",
-    "dev": "nodemon ./build/src/index.js",
+   
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
